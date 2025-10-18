@@ -1,7 +1,4 @@
 package week6Assingment;
-import java.util.Scanner;
-import java.util.ArrayList;
-import java.text.DecimalFormat;
 
 // Class with private variables
 public class Vehicle {
@@ -104,12 +101,3 @@ public class Vehicle {
 		System.out.println(userVehicle.ViewVehicle());
 	}
 }
-
-
-
-
-
-
-	
-
-
