@@ -84,16 +84,16 @@ public class Vehicle {
 				", Drive: " + drivetrain + ", Category: " + vehicleCategory + ", Miles: " + mileage;
 	}
 	
-	// Testing method
+	// Testing methods
 	public static void main(String[] args) {
 		Vehicle userVehicle = new Vehicle();
 		
 		// add
-		userVehicle.AddVehicle(1998, 98453.20, "XYZ123", "white", "Dodge", "Stratus", "FWD", "sedan");
+		System.out.println(userVehicle.AddVehicle(1998, 98453.20, "XYZ123", "white", "Dodge", "Stratus", "FWD", "sedan"));
 		System.out.println(userVehicle.ViewVehicle());
 		
 		// update
-		userVehicle.UpdateVehicle(1998, 98741.45, "XYZ123", "blue", "Dodge", "Stratus", "FWD", "sedan");
+		System.out.println(userVehicle.UpdateVehicle(1998, 98741.45, "XYZ123", "blue", "Dodge", "Stratus", "FWD", "sedan"));
 		System.out.println(userVehicle.ViewVehicle());
 		
 		// delete
